@@ -1,0 +1,25 @@
+{
+  "name": "chalk-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "chalk": "^5.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "babel": {
+    "presets": [
+        "env"
+    ]
+  }
+}
